@@ -14,7 +14,7 @@
 <div class="bg-green-900 text-white px-8 py-4">
     <div class="flex justify-between items-center max-w-screen-xl mx-auto">
         <div class="flex items-center gap-4">
-            <img src="{{ asset('gambar-icon/logo-desa.png') }}" alt="Logo Desa" class="h-14 w-14 rounded bg-white p-1">
+            <img src="{{ asset('/gambar-icon/logo-desa.png') }}" alt="Logo Desa" class="h-14 w-14 rounded bg-white p-1">
             <div>
                 <h1 class="font-bold text-lg">Desa Kampung Anyar</h1>
                 <p class="text-sm font-normal">Kabupaten Banyuwangi</p>
@@ -66,7 +66,7 @@
 <section class="max-w-screen-xl mx-auto flex flex-col md:flex-row items-center gap-12 pt-0">
     <div class="flex-shrink-0 flex justify-center w-full md:w-auto">
         <div class="bg-white rounded-full shadow-lg flex items-center justify-center" style="width: 340px; height: 340px;">
-            <img src="{{ asset('gambar-icon/kepala-desa.png') }}" alt="Kepala Desa" class="object-cover rounded-full w-[300px] h-[300px]">
+            <img src="{{ asset('/gambar-icon/kepala-desa.png') }}" alt="Kepala Desa" class="object-cover rounded-full w-[300px] h-[300px]">
         </div>
     </div>
     <div class="flex-1">
@@ -222,7 +222,7 @@
 <!-- Section APB DESA 2025 -->
 <section class="max-w-screen-xl mx-auto py-16 flex flex-col md:flex-row items-center gap-8">
     <div class="md:w-1/2 flex justify-center">
-        <img src="{{ asset('gambar-icon/icon-statistik.png') }}" alt="APB Desa Ilustrasi" class="w-[380px] md:w-[420px]">
+        <img src="{{ asset('/gambar-icon/icon-statistik.png') }}" alt="APB Desa Ilustrasi" class="w-[380px] md:w-[420px]">
     </div>
     <div class="md:w-1/2 flex flex-col items-start">
         <h2 class="text-4xl md:text-5xl font-bold text-green-800 mb-2">APB DESA 2025</h2>
@@ -258,7 +258,7 @@
     <div class="grid grid-cols-1 md:grid-cols-3 gap-8 mb-8">
         <!-- Card 1 -->
         <div class="bg-white rounded-2xl shadow-lg overflow-hidden flex flex-col">
-            <img src="{{ asset('gambar-icon/foto-berita.jpg') }}" alt="Rembuk Stunting" class="h-48 w-full object-cover">
+            <img src="{{ asset('/gambar-icon/foto-berita.jpg') }}" alt="Rembuk Stunting" class="h-48 w-full object-cover">
             <div class="p-6 flex-1 flex flex-col justify-between">
                 <div>
                     <h3 class="font-bold text-lg text-gray-800 mb-2">Rembuk Stunting 2025 di Desa Kampung Anyar</h3>
@@ -275,7 +275,7 @@
         </div>
         <!-- Card 2 -->
         <div class="bg-white rounded-2xl shadow-lg overflow-hidden flex flex-col">
-            <img src="{{ asset('gambar-icon/foto-berita.jpg') }}" alt="BPS Canangkan Desa Statistik" class="h-48 w-full object-cover">
+            <img src="{{ asset('/gambar-icon/foto-berita.jpg') }}" alt="BPS Canangkan Desa Statistik" class="h-48 w-full object-cover">
             <div class="p-6 flex-1 flex flex-col justify-between">
                 <div>
                     <h3 class="font-bold text-lg text-gray-800 mb-2">BPS Canangkan Desa Kampung Anyar sebagai Desa Cinta Statistik</h3>
@@ -292,7 +292,7 @@
         </div>
         <!-- Card 3 -->
         <div class="bg-white rounded-2xl shadow-lg overflow-hidden flex flex-col">
-            <img src="{{ asset('gambar-icon/foto-berita.jpg') }}" alt="Gotong Royong" class="h-48 w-full object-cover">
+            <img src="{{ asset('/gambar-icon/foto-berita.jpg') }}" alt="Gotong Royong" class="h-48 w-full object-cover">
             <div class="p-6 flex-1 flex flex-col justify-between">
                 <div>
                     <h3 class="font-bold text-lg text-gray-800 mb-2">Gotong Royong Perbaiki Akses Jalan Pemakaman</h3>
@@ -309,7 +309,7 @@
         </div>
         <!-- Card 4 -->
         <div class="bg-white rounded-2xl shadow-lg overflow-hidden flex flex-col">
-            <img src="{{ asset('gambar-icon/foto-berita.jpg') }}" alt="Transparansi APBDes 2024" class="h-48 w-full object-cover">
+            <img src="{{ asset('/gambar-icon/foto-berita.jpg') }}" alt="Transparansi APBDes 2024" class="h-48 w-full object-cover">
             <div class="p-6 flex-1 flex flex-col justify-between">
                 <div>
                     <h3 class="font-bold text-lg text-gray-800 mb-2">Transparansi Realisasi APBDes 2024</h3>
@@ -326,7 +326,7 @@
         </div>
         <!-- Card 5 -->
         <div class="bg-white rounded-2xl shadow-lg overflow-hidden flex flex-col">
-            <img src="{{ asset('gambar-icon/foto-berita.jpg') }}" alt="Transparansi APBDes 2024" class="h-48 w-full object-cover">
+            <img src="{{ asset('/gambar-icon/foto-berita.jpg') }}" alt="Transparansi APBDes 2024" class="h-48 w-full object-cover">
             <div class="p-6 flex-1 flex flex-col justify-between">
                 <div>
                     <h3 class="font-bold text-lg text-gray-800 mb-2">Transparansi APBDes 2024 Desa Kampung Anyar</h3>
@@ -343,7 +343,7 @@
         </div>
         <!-- Card 6 -->
         <div class="bg-white rounded-2xl shadow-lg overflow-hidden flex flex-col">
-            <img src="{{ asset('gambar-icon/foto-berita.jpg') }}" alt="Musyawarah Desa" class="h-48 w-full object-cover">
+            <img src="{{ asset('/gambar-icon/foto-berita.jpg') }}" alt="Musyawarah Desa" class="h-48 w-full object-cover">
             <div class="p-6 flex-1 flex flex-col justify-between">
                 <div>
                     <h3 class="font-bold text-lg text-gray-800 mb-2">Musyawarah Desa: Pembentukan Koperasi "Merah Putih"</h3>
@@ -494,7 +494,7 @@
         <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 gap-8">
             <!-- Produk Card -->
             <div class="bg-gray-50 rounded-2xl shadow-md overflow-hidden flex flex-col">
-                <img src="{{ asset('gambar-icon/foto-produk.jpg') }}" alt="" class="h-40 w-full object-cover">
+                <img src="{{ asset('/gambar-icon/foto-produk.jpg') }}" alt="" class="h-40 w-full object-cover">
                 <div class="p-4 flex-1 flex flex-col justify-between">
                     <div>
                         <h3 class="text-lg font-bold text-gray-800 mb-2">Nasi Bebek</h3>
@@ -508,7 +508,7 @@
                 </div>
             </div>
             <div class="bg-gray-50 rounded-2xl shadow-md overflow-hidden flex flex-col">
-                <img src="{{ asset('gambar-icon/foto-produk.jpg') }}" alt="" class="h-40 w-full object-cover">
+                <img src="{{ asset('/gambar-icon/foto-produk.jpg') }}" alt="" class="h-40 w-full object-cover">
                 <div class="p-4 flex-1 flex flex-col justify-between">
                     <div>
                         <h3 class="text-lg font-bold text-gray-800 mb-2">Nasi Ayam</h3>
@@ -522,7 +522,7 @@
                 </div>
             </div>
             <div class="bg-gray-50 rounded-2xl shadow-md overflow-hidden flex flex-col">
-                <img src="{{ asset('gambar-icon/foto-produk.jpg') }}" alt="" class="h-40 w-full object-cover">
+                <img src="{{ asset('/gambar-icon/foto-produk.jpg') }}" alt="" class="h-40 w-full object-cover">
                 <div class="p-4 flex-1 flex flex-col justify-between">
                     <div>
                         <h3 class="text-lg font-bold text-gray-800 mb-2">Nasi Goreng</h3>
@@ -536,7 +536,7 @@
                 </div>
             </div>
             <div class="bg-gray-50 rounded-2xl shadow-md overflow-hidden flex flex-col">
-                <img src="{{ asset('gambar-icon/foto-produk.jpg') }}" alt="" class="h-40 w-full object-cover">
+                <img src="{{ asset('/gambar-icon/foto-produk.jpg') }}" alt="" class="h-40 w-full object-cover">
                 <div class="p-4 flex-1 flex flex-col justify-between">
                     <div>
                         <h3 class="text-lg font-bold text-gray-800 mb-2">Jagung</h3>
@@ -550,7 +550,7 @@
                 </div>
             </div>
             <div class="bg-gray-50 rounded-2xl shadow-md overflow-hidden flex flex-col">
-                <img src="{{ asset('gambar-icon/foto-produk.jpg') }}" alt="" class="h-40 w-full object-cover">
+                <img src="{{ asset('/gambar-icon/foto-produk.jpg') }}" alt="" class="h-40 w-full object-cover">
                 <div class="p-4 flex-1 flex flex-col justify-between">
                     <div>
                         <h3 class="text-lg font-bold text-gray-800 mb-2">Sawi</h3>
@@ -564,7 +564,7 @@
                 </div>
             </div>
             <div class="bg-gray-50 rounded-2xl shadow-md overflow-hidden flex flex-col">
-                <img src="{{ asset('gambar-icon/foto-produk.jpg') }}" alt="" class="h-40 w-full object-cover">
+                <img src="{{ asset('/gambar-icon/foto-produk.jpg') }}" alt="" class="h-40 w-full object-cover">
                 <div class="p-4 flex-1 flex flex-col justify-between">
                     <div>
                         <h3 class="text-lg font-bold text-gray-800 mb-2">Tomat
@@ -615,22 +615,22 @@
         <p class="text-xl text-white mb-8 text-left">Menampilkan kegiatan-kegiatan yang berlangsung di desa</p>
         <div class="grid grid-cols-1 md:grid-cols-3 gap-8 mb-8 bg-white-700 ">
             <div class="bg-white rounded-2xl shadow-lg w-full h-64 flex items-center justify-center overflow-hidden">
-                <img src="{{ asset('gambar-icon/foto-galeri1.jpg') }}" alt="Kegiatan Desa 1" class="w-full h-full object-cover hover:scale-105 transition-transform duration-300">
+                <img src="/gambar-icon/foto-galeri1.jpg" alt="Kegiatan Desa 1" class="w-full h-full object-cover hover:scale-105 transition-transform duration-300">
             </div>
             <div class="bg-white rounded-2xl shadow-lg w-full h-64 flex items-center justify-center overflow-hidden">
-                <img src="{{ asset('gambar-icon/foto-galeri2.jpeg') }}" alt="Kegiatan Desa 2" class="w-full h-full object-cover hover:scale-105 transition-transform duration-300">
+                <img src="/gambar-icon/foto-galeri2.jpg" alt="Kegiatan Desa 2" class="w-full h-full object-cover hover:scale-105 transition-transform duration-300">
             </div>
             <div class="bg-white rounded-2xl shadow-lg w-full h-64 flex items-center justify-center overflow-hidden">
-                <img src="{{ asset('gambar-icon/foto-galeri3.jpg') }}" alt="Kegiatan Desa 3" class="w-full h-full object-cover hover:scale-105 transition-transform duration-300">
+                <img src="/gambar-icon/foto-galeri3.jpg" alt="Kegiatan Desa 3" class="w-full h-full object-cover hover:scale-105 transition-transform duration-300">
             </div>
             <div class="bg-white rounded-2xl shadow-lg w-full h-64 flex items-center justify-center overflow-hidden">
-                <img src="{{ asset('gambar-icon/foto-galeri4.jpg') }}" alt="Kegiatan Desa 4" class="w-full h-full object-cover hover:scale-105 transition-transform duration-300">
+                <img src="/gambar-icon/foto-galeri4.jpg" alt="Kegiatan Desa 4" class="w-full h-full object-cover hover:scale-105 transition-transform duration-300">
             </div>
             <div class="bg-white rounded-2xl shadow-lg w-full h-64 flex items-center justify-center overflow-hidden">
-                <img src="{{ asset('gambar-icon/foto-galeri5.jpg') }}" alt="Kegiatan Desa 5" class="w-full h-full object-cover hover:scale-105 transition-transform duration-300">
+                <img src="/gambar-icon/foto-galeri5.jpg" alt="Kegiatan Desa 5" class="w-full h-full object-cover hover:scale-105 transition-transform duration-300">
             </div>
             <div class="bg-white rounded-2xl shadow-lg w-full h-64 flex items-center justify-center overflow-hidden">
-                <img src="gambar-icon/foto-galeri6.jpg" alt="Kegiatan Desa 6" class="w-full h-full object-cover hover:scale-105 transition-transform duration-300">
+                <img src="/gambar-icon/foto-galeri6.jpg" alt="Kegiatan Desa 6" class="w-full h-full object-cover hover:scale-105 transition-transform duration-300">
             </div>
         </div>
         <div class="flex justify-end items-center gap-2 mt-4">
