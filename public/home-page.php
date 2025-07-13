@@ -640,34 +640,79 @@
                 <line x1="8" y1="12" x2="16" y2="12" stroke="currentColor" stroke-width="2"/>
                 <line x1="8" y1="16" x2="12" y2="16" stroke="currentColor" stroke-width="2"/>
             </svg>
-                    img: 'gambar-icon/wisata-jopuro.webp',
         </div>
+        <a href="#" class="font-bold text-lg text-white hover:underline">LIHAT GALERI FOTO LEBIH BANYAK</a>
     </div>
 </section>
 
 <!-- Footer -->
-                    img: 'gambar-icon/wisata-jopuro.webp',
-    <div class="max-w-screen-xl mx-auto px-8 grid grid-cols-1 md:grid-cols-4 gap-8">
-        <!-- Logo & Address -->
+
+
+<!-- Footer Baru -->
+<footer class="bg-green-900 text-white pt-12 pb-4 px-8 mt-24">
+    <div class="max-w-screen-xl mx-auto grid grid-cols-1 md:grid-cols-4 gap-8">
+        <!-- Logo dan Alamat -->
         <div class="flex flex-col gap-4">
-            <img src="{{ asset('gambar-icon/logo-desa.png') }}" alt="Logo" class="h-20 w-20 mb-2">
-            <h3 class="font-bold text-lg">Pemerintah Desa Kampung Anyar</h3>
-                    img: 'gambar-icon/wisata-jopuro.webp',
-                Desa Kampunganyar,<br>
-                Kecamatan Glagah,<br>
-                Kabupaten Banyuwangi<br>
-                Provinsi Jawa Timur, 68461
-            </p>
+            <img src="/gambar-icon/logo-desa.png" alt="Logo Desa" class="h-20 w-20 mb-2">
+            <div>
+                <h3 class="font-bold text-xl mb-2">Pemerintah Desa Kampung Anyar</h3>
+                <p class="text-base leading-relaxed">Jl. Kampung Anyar No. 1,<br>
+                Desa Kampunganyar,
+                Kecamatan Glagah,
+                Kabupaten Banyuwangi
+                Provinsi Jawa Timur, 68461</p>
+            </div>
         </div>
         <!-- Kontak -->
-
+        <div class="flex flex-col gap-4">
+            <h3 class="font-bold text-xl mb-2">Hubungi Kami</h3>
+            <div class="flex items-center gap-2"><span class="material-icons">call</span> 086526778233</div>
+            <div class="flex items-center gap-2"><span class="material-icons">email</span> admin@kampunganyar.com</div>
+            <div class="flex gap-4 mt-2">
+                <a href="#" class="text-white hover:text-green-300"><i class="fab fa-instagram text-2xl"></i></a>
+                <a href="#" class="text-white hover:text-green-300"><i class="fab fa-facebook text-2xl"></i></a>
+                <a href="#" class="text-white hover:text-green-300"><i class="fab fa-youtube text-2xl"></i></a>
+            </div>
+        </div>
         <!-- Nomor Telepon Penting -->
-
+        <div class="flex flex-col gap-4">
+            <h3 class="font-bold text-xl mb-2">Nomor Telepon Penting</h3>
+            <a href="#" class="underline hover:text-green-300">Kepala Desa</a>
+            <a href="#" class="underline hover:text-green-300">Sekretaris Desa</a>
+        </div>
         <!-- Jelajahi -->
-
+        <div class="flex flex-col gap-4">
+            <h3 class="font-bold text-xl mb-2">Jelajahi</h3>
+            <a href="#" class="underline hover:text-green-300">Website Kemendesa</a>
+            <a href="#" class="underline hover:text-green-300">Website Kemendagri</a>
+            <a href="#" class="underline hover:text-green-300">Cek DPT Online</a>
+        </div>
+    </div>
+    <!-- Kunjungan Hari Ini -->
+    <div class="fixed left-8 bottom-8 z-50">
+        <div class="bg-green-200 rounded-xl shadow-lg px-6 py-4 flex items-center gap-4 min-w-[180px]">
+            <div class="bg-green-700 text-white rounded-lg p-2 flex flex-col items-center justify-center">
+                <span class="material-icons text-3xl">door_front</span>
+                <span class="font-bold text-2xl">70</span>
+            </div>
+            <div class="flex flex-col">
+                <span class="font-bold text-lg text-green-900">Kunjungan</span>
+                <span class="text-green-900">Hari Ini</span>
+            </div>
+            <span class="material-icons text-green-900">expand_more</span>
+        </div>
+    </div>
+    <!-- Pengaduan & Aksesibilitas -->
+    <div class="fixed right-8 bottom-8 z-50 flex gap-4">
+        <button class="bg-white rounded-full shadow-lg p-3 flex items-center justify-center" title="Aksesibilitas">
+            <span class="material-icons text-3xl text-green-800">accessible</span>
+        </button>
+        <button class="bg-red-300 rounded-xl shadow-lg px-6 py-4 flex items-center gap-2 font-bold text-lg text-white" title="Pengaduan">
+            <span class="material-icons text-2xl">headset_mic</span> Pengaduan
+        </button>
     </div>
     <!-- Copyright -->
-    <div class="w-full text-center text-white text-base mt-24 md:mt-16">© 2025 Powered by KKN Team - PMM Kemdiktisiantek - UPN Veteran Jawa Timur</div>
+    <div class="w-full text-center text-white text-base mt-16">© 2025 Powered by PT Digital Desa Indonesia</div>
 </footer>
 
 </body>
