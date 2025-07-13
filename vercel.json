@@ -1,11 +1,11 @@
 {
   "version": 2,
   "functions": {
-    "api/web.php": { "runtime": "vercel-php@0.6.0" }
+    "api/index.php": { "runtime": "vercel-php@0.6.0" }
   },
   "rewrites": [
     { "source": "/(.*\\.(?:js|css|png|jpg|jpeg|svg|gif|webp|ico|woff|woff2|ttf|eot))", "destination": "/public/$1" },
-    { "source": "/(.*)", "destination": "/api/web.php" }
+    { "source": "/(.*)", "destination": "/api/index.php" }
   ],
   "env": {
     "APP_ENV": "production",
