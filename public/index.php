@@ -14,7 +14,7 @@
 <div class="bg-green-900 text-white px-8 py-4">
     <div class="flex justify-between items-center max-w-screen-xl mx-auto">
         <div class="flex items-center gap-4">
-            <img src="gambar-icon/logo-desa.png" alt="Logo Desa" class="h-14 w-14 rounded bg-white p-1">
+            <img src="/gambar-icon/logo-desa.png" alt="Logo Desa" class="h-14 w-14 rounded bg-white p-1">
             <div>
                 <h1 class="font-bold text-lg">Desa Kampung Anyar</h1>
                 <p class="text-sm font-normal">Kabupaten Banyuwangi</p>
@@ -43,19 +43,19 @@
         <div class="md:w-1/2 flex justify-end">
             <div class="grid grid-cols-2 gap-8 mt-8 md:mt-0">
                 <div class="bg-white rounded-lg shadow p-10 flex flex-col items-center cursor-pointer hover:shadow-xl transition">
-                    <img src="gambar-icon/profil-desa.svg" class="w-24 mb-6">
+                    <img src="/gambar-icon/profil-desa.svg" class="w-24 mb-6">
                     <p class="font-semibold text-gray-700 text-lg">PROFIL DESA</p>
                 </div>
                 <div class="bg-white rounded-lg shadow p-10 flex flex-col items-center cursor-pointer hover:shadow-xl transition">
-                    <img src="gambar-icon/infografis.svg" class="w-24 mb-6">
+                    <img src="/gambar-icon/infografis.svg" class="w-24 mb-6">
                     <p class="font-semibold text-gray-700 text-lg">INFOGRAFIS</p>
                 </div>
                 <div class="bg-white rounded-lg shadow p-10 flex flex-col items-center cursor-pointer hover:shadow-xl transition">
-                    <img src="gambar-icon/idm.svg" class="w-24 mb-6">
+                    <img src="/gambar-icon/idm.svg" class="w-24 mb-6">
                     <p class="font-semibold text-gray-700 text-lg">IDM</p>
                 </div>
                 <div class="bg-white rounded-lg shadow p-10 flex flex-col items-center cursor-pointer hover:shadow-xl transition">
-                    <img src="gambar-icon/ppid.svg" class="w-24 mb-6">
+                    <img src="/gambar-icon/ppid.svg" class="w-24 mb-6">
                     <p class="font-semibold text-gray-700 text-lg">PPID</p>
                 </div>
             </div>
@@ -67,7 +67,7 @@
 <section class="max-w-screen-xl mx-auto flex flex-col md:flex-row items-center gap-12 pt-0">
     <div class="flex-shrink-0 flex justify-center w-full md:w-auto">
         <div class="bg-white rounded-full shadow-lg flex items-center justify-center" style="width: 340px; height: 340px;">
-            <img src="gambar-icon/kepala-desa.png" alt="Kepala Desa" class="object-cover rounded-full w-[300px] h-[300px]">
+            <img src="/gambar-icon/kepala-desa.png" alt="Kepala Desa" class="object-cover rounded-full w-[300px] h-[300px]">
         </div>
     </div>
     <div class="flex-1">
@@ -140,28 +140,28 @@
         <div class="mt-12 w-full">
             <div class="grid grid-cols-1 md:grid-cols-4 gap-8">
                 <div class="rounded-xl overflow-hidden shadow border bg-white flex flex-col items-center">
-                    <img src="gambar-icon\foto-orang.jpg" class="w-full h-64 object-cover">
+                    <img src="/gambar-icon/foto-orang.jpg" class="w-full h-64 object-cover">
                     <div class="bg-green-700 w-full text-center py-4">
                         <h4 class="text-white font-bold text-xl">NAMA LENGKAP</h4>
                         <p class="text-white text-base">Kepala Desa</p>
                     </div>
                 </div>
                 <div class="rounded-xl overflow-hidden shadow border bg-white flex flex-col items-center">
-                    <img src="gambar-icon\foto-orang.jpg" class="w-full h-64 object-cover">
+                    <img src="/gambar-icon/foto-orang.jpg" class="w-full h-64 object-cover">
                     <div class="bg-green-700 w-full text-center py-4">
                         <h4 class="text-white font-bold text-xl">NAMA LENGKAP</h4>
                         <p class="text-white text-base">Sekretaris Desa</p>
                     </div>
                 </div>
                 <div class="rounded-xl overflow-hidden shadow border bg-white flex flex-col items-center">
-                    <img src="gambar-icon\foto-orang.jpg" class="w-full h-64 object-cover">
+                    <img src="/gambar-icon/foto-orang.jpg" class="w-full h-64 object-cover">
                     <div class="bg-green-700 w-full text-center py-4">
                         <h4 class="text-white font-bold text-xl">NAMA LENGKAP</h4>
                         <p class="text-white text-base">Kasi Pemerintahan</p>
                     </div>
                 </div>
                 <div class="rounded-xl overflow-hidden shadow border bg-white flex flex-col items-center">
-                    <img src="gambar-icon\foto-orang.jpg" class="w-full h-64 object-cover">
+                    <img src="/gambar-icon/foto-orang.jpg" class="w-full h-64 object-cover">
                     <div class="bg-green-700 w-full text-center py-4">
                         <h4 class="text-white font-bold text-xl">NAMA LENGKAP</h4>
                         <p class="text-white text-base">Kasi Kesejahteraan</p>
@@ -223,7 +223,7 @@
 <!-- Section APB DESA 2025 -->
 <section class="max-w-screen-xl mx-auto py-16 flex flex-col md:flex-row items-center gap-8">
     <div class="md:w-1/2 flex justify-center">
-        <img src="gambar-icon\icon-statistik.png" alt="APB Desa Ilustrasi" class="w-[380px] md:w-[420px]">
+        <img src="/public/gambar-icon/icon-statistik.png" alt="APB Desa Ilustrasi" class="w-[380px] md:w-[420px]">
     </div>
     <div class="md:w-1/2 flex flex-col items-start">
         <h2 class="text-4xl md:text-5xl font-bold text-green-800 mb-2">APB DESA 2025</h2>
