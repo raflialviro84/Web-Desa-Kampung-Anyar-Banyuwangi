@@ -640,8 +640,8 @@
                 <line x1="8" y1="12" x2="16" y2="12" stroke="currentColor" stroke-width="2"/>
                 <line x1="8" y1="16" x2="12" y2="16" stroke="currentColor" stroke-width="2"/>
             </svg>
+            <a href="#" class="font-bold text-lg text-white hover:underline">LIHAT GALERI FOTO LEBIH BANYAK</a>
         </div>
-        <a href="#" class="font-bold text-lg text-white hover:underline">LIHAT GALERI FOTO LEBIH BANYAK</a>
     </div>
 </section>
 
