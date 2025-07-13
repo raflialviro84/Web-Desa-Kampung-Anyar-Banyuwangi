@@ -645,9 +645,6 @@
     </div>
 </section>
 
-<!-- Footer -->
-
-
 <!-- Footer Baru -->
 <footer class="bg-green-900 text-white pt-12 pb-4 px-8 mt-24">
     <div class="max-w-screen-xl mx-auto grid grid-cols-1 md:grid-cols-4 gap-8">
@@ -687,29 +684,6 @@
             <a href="#" class="underline hover:text-green-300">Website Kemendagri</a>
             <a href="#" class="underline hover:text-green-300">Cek DPT Online</a>
         </div>
-    </div>
-    <!-- Kunjungan Hari Ini -->
-    <div class="fixed left-8 bottom-8 z-50">
-        <div class="bg-green-200 rounded-xl shadow-lg px-6 py-4 flex items-center gap-4 min-w-[180px]">
-            <div class="bg-green-700 text-white rounded-lg p-2 flex flex-col items-center justify-center">
-                <span class="material-icons text-3xl">door_front</span>
-                <span class="font-bold text-2xl">70</span>
-            </div>
-            <div class="flex flex-col">
-                <span class="font-bold text-lg text-green-900">Kunjungan</span>
-                <span class="text-green-900">Hari Ini</span>
-            </div>
-            <span class="material-icons text-green-900">expand_more</span>
-        </div>
-    </div>
-    <!-- Pengaduan & Aksesibilitas -->
-    <div class="fixed right-8 bottom-8 z-50 flex gap-4">
-        <button class="bg-white rounded-full shadow-lg p-3 flex items-center justify-center" title="Aksesibilitas">
-            <span class="material-icons text-3xl text-green-800">accessible</span>
-        </button>
-        <button class="bg-red-300 rounded-xl shadow-lg px-6 py-4 flex items-center gap-2 font-bold text-lg text-white" title="Pengaduan">
-            <span class="material-icons text-2xl">headset_mic</span> Pengaduan
-        </button>
     </div>
     <!-- Copyright -->
     <div class="w-full text-center text-white text-base mt-16">© 2025 Powered by PT Digital Desa Indonesia</div>
