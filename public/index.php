@@ -14,7 +14,7 @@
 <div class="bg-green-900 text-white px-8 py-4">
     <div class="flex justify-between items-center max-w-screen-xl mx-auto">
         <div class="flex items-center gap-4">
-            <img src="/gambar-icon/logo-desa.png" alt="Logo Desa" class="h-14 w-14 rounded bg-white p-1">
+            <img src="/public/gambar-icon/logo-desa.png" alt="Logo Desa" class="h-14 w-14 rounded bg-white p-1">
             <div>
                 <h1 class="font-bold text-lg">Desa Kampung Anyar</h1>
                 <p class="text-sm font-normal">Kabupaten Banyuwangi</p>
