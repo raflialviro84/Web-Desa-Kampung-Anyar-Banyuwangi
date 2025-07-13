@@ -3,7 +3,7 @@
   "functions": {
     "api/index.php": { "runtime": "vercel-php@0.6.0" }
   },
-  "routes": [
+  "rewrites": [
     { "source": "/(.*\\.(?:js|css|png|jpg|jpeg|svg|gif|webp|ico|woff|woff2|ttf|eot))", "destination": "/public/$1" },
     { "source": "/(.*)", "destination": "/api/index.php" }
   ],
