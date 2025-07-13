@@ -5,7 +5,7 @@
   },
   "rewrites": [
     { "source": "/(.*\\.(?:js|css|png|jpg|jpeg|svg|gif|webp|ico|woff|woff2|ttf|eot))", "destination": "/public/$1" },
-    { "source": "/(.*)", "destination": "/api/index.php" }
+    { "source": "/(.*)", "destination": "/api/web.php" }
   ],
   "env": {
     "APP_ENV": "production",
