@@ -22,13 +22,14 @@
             </div>
         </div>
         <nav class="flex gap-8 font-semibold text-base">
-            <a href="/index.php" class="nav-link active">Home</a>
-            <a href="/profil-desa.php" class="nav-link">Profil Desa</a>
-            <a href="#" class="nav-link">Infografis</a>
-            <a href="#" class="nav-link">Wisata</a>
-            <a href="#" class="nav-link">Berita</a>
-            <a href="#" class="nav-link">Belanja</a>
-            <a href="#" class="nav-link">PPID</a>
+            <a href="index.php" class="nav-link active">Home</a>
+            <a href="profil-desa.php" class="nav-link">Profil Desa</a>
+            <a href="#" class="nav-link">Informasi</a>
+            <a href="#" class="nav-link">Pemerintahan</a>
+            <a href="#" class="nav-link">Potensi</a>
+            <a href="#" class="nav-link">Publikasi</a>
+            <a href="#" class="nav-link">Produk Hukum</a>
+            <a href="kontak-desa.php" class="nav-link">Kontak</a>
         </nav>
     </div>
 </div>
