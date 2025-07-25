@@ -21,8 +21,8 @@
             </div>
         </div>
         <nav class="flex gap-8 font-semibold text-base">
-            <a href="#" class="nav-link active">Home</a>
-            <a href="#" class="nav-link">Profil Desa</a>
+            <a href="public/index.php" class="nav-link active">Home</a>
+            <a href="/profil-desa.php" class="nav-link">Profil Desa</a>
             <a href="#" class="nav-link">Infografis</a>
             <a href="#" class="nav-link">Wisata</a>
             <a href="#" class="nav-link">Berita</a>
