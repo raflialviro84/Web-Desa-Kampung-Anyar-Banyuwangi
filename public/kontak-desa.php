@@ -78,7 +78,7 @@
         <div class="flex flex-col gap-4">
             <img src="/gambar-icon/logo-desa.png" alt="Logo Desa" class="h-20 w-20 mb-2">
             <div>
-                <h3 class="font-bold text-xl mb-2">Pemerintah Desa Kampung Anyar</h3>
+                <h3 class="font-bold text-xl mb-2">Pemerintah Desa Kampunganyar</h3>
                 <p class="text-base leading-relaxed">Jl. Kampung Anyar No. 1,<br>
                 Desa Kampunganyar,
                 Kecamatan Glagah,
