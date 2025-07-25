@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Profil Desa Kampunganyar</title>
     <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/home.css">
 </head>
 
 <body class="bg-[#17a286] font-sans">
@@ -20,7 +22,7 @@
             </div>
         </div>
         <nav class="flex gap-8 font-semibold text-base">
-            <a href="public/index.php" class="nav-link active">Home</a>
+            <a href="/index.php" class="nav-link active">Home</a>
             <a href="/profil-desa.php" class="nav-link">Profil Desa</a>
             <a href="#" class="nav-link">Infografis</a>
             <a href="#" class="nav-link">Wisata</a>
