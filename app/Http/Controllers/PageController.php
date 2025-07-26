@@ -16,6 +16,36 @@ class PageController extends Controller
         return view('profil-desa');
     }
 
+    public function potensiWisata()
+    {
+        return view('potensi-wisata');
+    }
+
+    public function potensiSda()
+    {
+        return view('potensi-sda');
+    }
+
+    public function potensiUmkm()
+    {
+        return view('potensi-umkm');
+    }
+
+    public function detailWisata()
+    {
+        return view('detail-wisata');
+    }
+
+    public function detailSda()
+    {
+        return view('detail-sda');
+    }
+
+    public function detailUmkm()
+    {
+        return view('detail-umkm');
+    }
+
     public function kontak()
     {
         return view('kontak');
