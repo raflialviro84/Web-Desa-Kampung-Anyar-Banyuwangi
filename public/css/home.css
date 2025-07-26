@@ -25,9 +25,3 @@ body, h1, h2, h3, h4, h5, h6, p, a, button {
 .nav-link:hover::after {
     width: 100%;
 }
-/* .nav-link.active {
-    font-weight: 700;
-} */
-/* .nav-link.active::after {
-    width: 100%;
-} */

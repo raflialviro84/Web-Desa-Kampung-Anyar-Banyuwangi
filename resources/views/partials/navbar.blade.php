@@ -83,10 +83,10 @@
                     </svg>
                 </button>
                 <div class="absolute hidden group-hover:block bg-white text-green-900 mt-2 rounded shadow-lg min-w-[180px] z-50">
-                    <a href="#" class="block px-4 py-2 hover:bg-green-100">Artikel dan Berita</a>
-                    <a href="#" class="block px-4 py-2 hover:bg-green-100">Galeri</a>
+                    <a href="{{ url('/berita') }}" class="block px-4 py-2 hover:bg-green-100">Artikel dan Berita</a>
+                    <a href="{{ url('/galeri') }}" class="block px-4 py-2 hover:bg-green-100">Galeri</a>
                 </div>
-</div>
+            </div>
 
             <a href="{{ route('kontak') }}" class="nav-link {{ request()->is('kontak') ? 'active' : '' }}">Kontak</a>
         </nav>
