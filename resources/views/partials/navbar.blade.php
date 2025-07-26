@@ -68,9 +68,9 @@
                     </svg>
                 </button>
                 <div class="absolute hidden group-hover:block bg-white text-green-900 mt-2 rounded shadow-lg min-w-[200px] z-50">
-                    <a href="#" class="block px-4 py-2 hover:bg-green-100">Sumber Daya Alam</a>
-                    <a href="#" class="block px-4 py-2 hover:bg-green-100">Wisata</a>
-                    <a href="#" class="block px-4 py-2 hover:bg-green-100">Produk Hasil UMKM</a>
+                    <a href="potensi-sda.php" class="block px-4 py-2 hover:bg-green-100">Sumber Daya Alam</a>
+                    <a href="potensi-wisata-desa.php" class="block px-4 py-2 hover:bg-green-100">Wisata</a>
+                    <a href="potensi-produk-umkm.php" class="block px-4 py-2 hover:bg-green-100">Produk Hasil UMKM</a>
                 </div>
             </div>
 
