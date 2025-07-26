@@ -16,7 +16,5 @@
     <div>
         @yield('content')
     </div>
-
-    {{-- Footer? Bisa di-include juga jika ingin global --}}
 </body>
 </html>
