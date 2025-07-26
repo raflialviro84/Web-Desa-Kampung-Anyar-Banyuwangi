@@ -36,7 +36,7 @@
                 </button>
                 <div class="absolute hidden group-hover:block bg-white text-green-900 mt-2 rounded shadow-lg min-w-[180px] z-50">
                     <a href="{{ url('/pemerintahan-RT-RW') }}" class="block px-4 py-2 hover:bg-green-100">RT & RW</a>
-                    <a href="#" class="block px-4 py-2 hover:bg-green-100">PKK</a>
+                    <a href="{{ url('/pemerintahan-PKK') }}" class="block px-4 py-2 hover:bg-green-100">PKK</a>
                     <a href="#" class="block px-4 py-2 hover:bg-green-100">Karang Taruna</a>
                     <a href="#" class="block px-4 py-2 hover:bg-green-100">BPD</a>
                 </div>
