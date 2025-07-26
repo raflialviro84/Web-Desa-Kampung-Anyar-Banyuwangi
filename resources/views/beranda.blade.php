@@ -16,9 +16,7 @@
     <div class="flex flex-col md:flex-row items-start justify-between max-w-screen-xl mx-auto py-16">
         <div class="md:w-1/2">
             <h2 class="text-4xl font-bold text-green-800 mb-2">JELAJAHI DESA</h2>
-            <p class="text-lg text-black font-normal leading-relaxed">
-                Melalui website ini Anda dapat menjelajahi segala hal yang terkait dengan desa. Aspek pemerintahan, penduduk, demografi, potensi desa, dan juga berita tentang desa.
-            </p>
+            <p class="text-lg text-black font-normal leading-relaxed">Melalui website ini Anda dapat menjelajahi segala hal yang terkait dengan desa. Aspek pemerintahan, penduduk, demografi, potensi desa, dan juga berita tentang desa.</p>
         </div>
         <div class="md:w-1/2 flex justify-end">
             <div class="grid grid-cols-2 gap-8 mt-8 md:mt-0">
@@ -62,6 +60,7 @@
     </div>
 </section>
 
+
 <!-- Section PETA DESA -->
 <section class="max-w-screen-xl mx-auto py-16">
     <h2 class="text-5xl font-bold text-green-800 mb-2">PETA DESA Kampung Anyar</h2>
@@ -69,11 +68,7 @@
     <div class="flex flex-col md:flex-row gap-4 mb-8">
         <div class="flex items-center gap-2">
             <input type="text" placeholder="Telusuri Peta" class="border rounded-lg px-4 py-2 w-64 text-gray-700 focus:outline-none focus:ring-2 focus:ring-green-400">
-            <button class="bg-white border rounded-lg px-3 py-2 text-gray-500 hover:bg-gray-100">
-                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-4.35-4.35M17 11a6 6 0 11-12 0 6 6 0 0112 0z" />
-                </svg>
-            </button>
+            <button class="bg-white border rounded-lg px-3 py-2 text-gray-500 hover:bg-gray-100"><svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-4.35-4.35M17 11a6 6 0 11-12 0 6 6 0 0112 0z" /></svg></button>
         </div>
         <select class="border rounded-lg px-4 py-2 w-64 text-gray-700 focus:outline-none focus:ring-2 focus:ring-green-400">
             <option>Lihat Semua</option>
@@ -118,6 +113,7 @@
                 </ul>
             </div>
         </div>
+
         <!-- Kotak Struktur Perangkat Desa: satu kolom -->
         <div class="mt-12 w-full">
             <div class="grid grid-cols-1 md:grid-cols-4 gap-8">
@@ -239,8 +235,108 @@
     <h2 class="text-5xl font-bold text-green-800 mb-2">Berita Desa</h2>
     <p class="text-xl text-gray-700 mb-8">Menyajikan informasi terbaru tentang peristiwa, berita terkini, dan artikel-artikel jurnalistik dari Desa Kampung Anyar</p>
     <div class="grid grid-cols-1 md:grid-cols-3 gap-8 mb-8">
-        {{-- ... semua card berita, copy dari HTML-mu ... --}}
-        <!-- Gunakan kode card berita dari HTML kamu di sini -->
+        <!-- Card 1 -->
+        <div class="bg-white rounded-2xl shadow-lg overflow-hidden flex flex-col">
+            <img src="/gambar-icon/foto-berita.jpg" alt="Rembuk Stunting" class="h-48 w-full object-cover">
+            <div class="p-6 flex-1 flex flex-col justify-between">
+                <div>
+                    <h3 class="font-bold text-lg text-gray-800 mb-2">Rembuk Stunting 2025 di Desa Kampung Anyar</h3>
+                    <p class="text-gray-600 text-sm mb-4">Rembuk Stunting 2025 di Desa Kampung Anyar, Menetapkan Strategi Pencegahan Stunting Pada tanggal 3 Juli 2025...</p>
+                </div>
+                <div class="flex items-center justify-between mt-auto">
+                    <div class="flex items-center gap-2 text-gray-500 text-sm">
+                        <span class="font-semibold">Sudirman</span>
+                        <span>• Dilihat 11 kali</span>
+                    </div>
+                    <span class="bg-green-600 text-white rounded-lg px-3 py-1 font-bold text-sm">07 Jul 2025</span>
+                </div>
+            </div>
+        </div>
+        <!-- Card 2 -->
+        <div class="bg-white rounded-2xl shadow-lg overflow-hidden flex flex-col">
+            <img src="/gambar-icon/foto-berita.jpg" alt="BPS Canangkan Desa Statistik" class="h-48 w-full object-cover">
+            <div class="p-6 flex-1 flex flex-col justify-between">
+                <div>
+                    <h3 class="font-bold text-lg text-gray-800 mb-2">BPS Canangkan Desa Kampung Anyar sebagai Desa Cinta Statistik</h3>
+                    <p class="text-gray-600 text-sm mb-4">Badan Pusat Statistik Kabupaten Banyuwangi Canangkan Desa Kampung Anyar sebagai Desa Cinta Statistik Pada tanggal 19 Juni 2025...</p>
+                </div>
+                <div class="flex items-center justify-between mt-auto">
+                    <div class="flex items-center gap-2 text-gray-500 text-sm">
+                        <span class="font-semibold">Basir SE</span>
+                        <span>• Dilihat 92 kali</span>
+                    </div>
+                    <span class="bg-green-600 text-white rounded-lg px-3 py-1 font-bold text-sm">05 Jun 2025</span>
+                </div>
+            </div>
+        </div>
+        <!-- Card 3 -->
+        <div class="bg-white rounded-2xl shadow-lg overflow-hidden flex flex-col">
+            <img src="/gambar-icon/foto-berita.jpg" alt="Gotong Royong" class="h-48 w-full object-cover">
+            <div class="p-6 flex-1 flex flex-col justify-between">
+                <div>
+                    <h3 class="font-bold text-lg text-gray-800 mb-2">Gotong Royong Perbaiki Akses Jalan Pemakaman</h3>
+                    <p class="text-gray-600 text-sm mb-4">Gotong Royong Perbaiki Akses Jalan Pemakaman Dusun Lantebung Desa Kampung Anyar Pada tanggal 10 Juni 2025...</p>
+                </div>
+                <div class="flex items-center justify-between mt-auto">
+                    <div class="flex items-center gap-2 text-gray-500 text-sm">
+                        <span class="font-semibold">Sudirman</span>
+                        <span>• Dilihat 60 kali</span>
+                    </div>
+                    <span class="bg-green-600 text-white rounded-lg px-3 py-1 font-bold text-sm">02 Jun 2025</span>
+                </div>
+            </div>
+        </div>
+        <!-- Card 4 -->
+        <div class="bg-white rounded-2xl shadow-lg overflow-hidden flex flex-col">
+            <img src="/gambar-icon/foto-berita.jpg" alt="Transparansi APBDes 2024" class="h-48 w-full object-cover">
+            <div class="p-6 flex-1 flex flex-col justify-between">
+                <div>
+                    <h3 class="font-bold text-lg text-gray-800 mb-2">Transparansi Realisasi APBDes 2024</h3>
+                    <p class="text-gray-600 text-sm mb-4">Transparansi Realisasi APBDes 2024 Pemerintah Desa Kampung Anyar, pada tanggal 3 Januari 2025...</p>
+                </div>
+                <div class="flex items-center justify-between mt-auto">
+                    <div class="flex items-center gap-2 text-gray-500 text-sm">
+                        <span class="font-semibold">Sudirman</span>
+                        <span>• Dilihat 39 kali</span>
+                    </div>
+                    <span class="bg-green-600 text-white rounded-lg px-3 py-1 font-bold text-sm">28 May 2025</span>
+                </div>
+            </div>
+        </div>
+        <!-- Card 5 -->
+        <div class="bg-white rounded-2xl shadow-lg overflow-hidden flex flex-col">
+            <img src="/gambar-icon/foto-berita.jpg" alt="Transparansi APBDes 2024" class="h-48 w-full object-cover">
+            <div class="p-6 flex-1 flex flex-col justify-between">
+                <div>
+                    <h3 class="font-bold text-lg text-gray-800 mb-2">Transparansi APBDes 2024 Desa Kampung Anyar</h3>
+                    <p class="text-gray-600 text-sm mb-4">Desa Kampung Anyar Publikasi Pemaparan Anggaran 2024 pada tanggal 3 Januari 2025...</p>
+                </div>
+                <div class="flex items-center justify-between mt-auto">
+                    <div class="flex items-center gap-2 text-gray-500 text-sm">
+                        <span class="font-semibold">Sudirman</span>
+                        <span>• Dilihat 52 kali</span>
+                    </div>
+                    <span class="bg-green-600 text-white rounded-lg px-3 py-1 font-bold text-sm">28 May 2025</span>
+                </div>
+            </div>
+        </div>
+        <!-- Card 6 -->
+        <div class="bg-white rounded-2xl shadow-lg overflow-hidden flex flex-col">
+            <img src="/gambar-icon/foto-berita.jpg" alt="Musyawarah Desa" class="h-48 w-full object-cover">
+            <div class="p-6 flex-1 flex flex-col justify-between">
+                <div>
+                    <h3 class="font-bold text-lg text-gray-800 mb-2">Musyawarah Desa: Pembentukan Koperasi "Merah Putih"</h3>
+                    <p class="text-gray-600 text-sm mb-4">Musyawarah Desa: Pembentukan Koperasi Desa Merah Putih pada tanggal 3 Mei 2025, bertempat di Aula Desa Kampung Anyar...</p>
+                </div>
+                <div class="flex items-center justify-between mt-auto">
+                    <div class="flex items-center gap-2 text-gray-500 text-sm">
+                        <span class="font-semibold">Sudirman</span>
+                        <span>• Dilihat 168 kali</span>
+                    </div>
+                    <span class="bg-green-600 text-white rounded-lg px-3 py-1 font-bold text-sm">06 May 2025</span>
+                </div>
+            </div>
+        </div>
     </div>
     <div class="flex justify-end items-center gap-2">
         <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-black" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -254,27 +350,322 @@
 </section>
 
 <!-- Section Wisata Desa -->
-{{-- ...copy section wisata desa kamu di sini... --}}
-
-<!-- Section Pusat Belanja (E-Commerce) Desa -->
-{{-- ...copy section pusat belanja kamu di sini... --}}
-
-<!-- Leaflet JS & Script -->
-@section('js')
-    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+<section class="max-w-screen-xl mx-auto py-16">
+    <div class="bg-green-700 rounded-3xl shadow-xl px-6 py-10">
+        <h2 class="text-5xl font-bold text-white mb-2 drop-shadow-lg text-center">WISATA DESA</h2>
+        <p class="text-2xl text-white mb-8 drop-shadow text-center">Tempat Wisata Rekreasi yang nyaman, sendiri oke, bersama banyak orang juga oke</p>
+        <div class="relative flex justify-center items-center" style="min-height: 340px;">
+            <button id="wisataLeft" class="absolute left-2 md:left-8 top-1/2 -translate-y-1/2 z-10 bg-white/80 hover:bg-white text-green-800 rounded-full p-2 shadow-lg"><svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7" /></svg></button>
+            <div id="wisataCarousel" class="w-full flex justify-center items-center">
+                <!-- Card akan diisi oleh JS -->
+            </div>
+            <button id="wisataRight" class="absolute right-2 md:right-8 top-1/2 -translate-y-1/2 z-10 bg-white/80 hover:bg-white text-green-800 rounded-full p-2 shadow-lg"><svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" /></svg></button>
+        </div>
+        <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const wisataData = [
+                {
+                    img: 'gambar-icon/wisata-jopuro.webp',
+                    alt: 'Air Terjun Jagir',
+                    title: 'Wisata Air Terjun Jagir',
+                    desc: 'Wisata alam air terjun yang indah dan segar, cocok untuk wisata keluarga dan pecinta alam.'
+                },
+                {
+                    img: 'gambar-icon/wisata-jopuro.webp',
+                    alt: 'Wisata Jopuro',
+                    title: 'Wisata Jopuro',
+                    desc: 'Destinasi wisata edukasi dan budaya, menawarkan pengalaman unik di Desa Kampung Anyar.'
+                },
+                {
+                    img: 'gambar-icon/wisata-jopuro.webp',
+                    alt: 'Air Terjun Kalibendo',
+                    title: 'Wisata Air Terjun Kalibendo',
+                    desc: 'Air terjun eksotis dengan suasana alami, cocok untuk relaksasi dan fotografi.'
+                }
+            ];
+            let idx = 0;
+            const carousel = document.getElementById('wisataCarousel');
+            function renderCard(i, direction = null) {
+                const w = wisataData[i];
+                const card = document.createElement('div');
+                card.className = 'w-full max-w-4xl bg-white rounded-3xl shadow-2xl flex flex-col items-center p-10 mx-auto card-anim';
+                card.style.transition = 'transform 0.4s cubic-bezier(.4,0,.2,1), opacity 0.4s';
+                card.style.opacity = '1';
+                card.style.position = 'relative';
+                card.style.zIndex = '1';
+                card.innerHTML = `
+                    <img src='${w.img}' alt='${w.alt}' class='h-64 w-full object-cover rounded-xl mb-6'>
+                    <h3 class='text-3xl md:text-4xl font-bold text-green-800 mb-4 text-center'>${w.title}</h3>
+                    <p class='text-lg text-gray-600 text-center'>${w.desc}</p>
+                `;
+                // Animasi masuk
+                if (direction === 'right') {
+                    card.style.transform = 'translateX(100%)';
+                } else if (direction === 'left') {
+                    card.style.transform = 'translateX(-100%)';
+                } else {
+                    card.style.transform = 'translateX(0)';
+                }
+                // Hapus card lama dengan animasi keluar
+                const oldCard = carousel.querySelector('.card-anim');
+                if (oldCard) {
+                    oldCard.style.transition = 'transform 0.4s cubic-bezier(.4,0,.2,1), opacity 0.4s';
+                    oldCard.style.opacity = '0';
+                    oldCard.style.position = 'absolute';
+                    oldCard.style.zIndex = '0';
+                    if (direction === 'right') {
+                        oldCard.style.transform = 'translateX(-100%)';
+                    } else if (direction === 'left') {
+                        oldCard.style.transform = 'translateX(100%)';
+                    } else {
+                        oldCard.style.transform = 'translateX(0)';
+                    }
+                    setTimeout(() => {
+                        if (oldCard.parentNode) oldCard.parentNode.removeChild(oldCard);
+                    }, 400);
+                }
+                carousel.appendChild(card);
+                setTimeout(() => {
+                    card.style.transform = 'translateX(0)';
+                }, 10);
+            }
+            renderCard(idx);
+            document.getElementById('wisataLeft').addEventListener('click', function() {
+                const prevIdx = (idx - 1 + wisataData.length) % wisataData.length;
+                renderCard(prevIdx, 'left');
+                idx = prevIdx;
+            });
+            document.getElementById('wisataRight').addEventListener('click', function() {
+                const nextIdx = (idx + 1) % wisataData.length;
+                renderCard(nextIdx, 'right');
+                idx = nextIdx;
+            });
+        });
+        </script>
+        <div class="flex justify-end items-center gap-2 mt-8">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <rect x="4" y="4" width="16" height="16" rx="2" fill="none" stroke="currentColor" stroke-width="2"/>
+                <line x1="8" y1="8" x2="16" y2="8" stroke="currentColor" stroke-width="2"/>
+                <line x1="8" y1="12" x2="16" y2="12" stroke="currentColor" stroke-width="2"/>
+                <line x1="8" y1="16" x2="12" y2="16" stroke="currentColor" stroke-width="2"/>
+            </svg>
+            <a href="#" class="text-white font-bold text-lg hover:underline">LIHAT WISATA LEBIH BANYAK</a>
+        </div>
+    </div>
     <script>
         document.addEventListener('DOMContentLoaded', function() {
-            var map = L.map('map').setView([-8.1753695, 114.2844501], 14); // Koordinat Desa Kampung Anyar
-            L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-                maxZoom: 19,
-                attribution: '© OpenStreetMap'
-            }).addTo(map);
-            L.marker([-8.1753695, 114.2844501]).addTo(map);
+            const scroll = document.getElementById('wisataScroll');
+            document.getElementById('wisataLeft').onclick = function() {
+                scroll.scrollBy({ left: -350, behavior: 'smooth' });
+            };
+            document.getElementById('wisataRight').onclick = function() {
+                scroll.scrollBy({ left: 350, behavior: 'smooth' });
+            };
         });
     </script>
-@endsection
+</section>
+
+<!-- Section Pusat Belanja (E-Commerce) Desa -->
+<section class="max-w-screen-xl mx-auto py-16">
+    <div class="bg-white rounded-3xl shadow-xl px-8 py-12">
+        <h2 class="text-5xl font-bold text-green-800 mb-2 drop-shadow-lg text-center">BELI DARI DESA</h2>
+        <p class="text-xl text-gray-700 mb-8 text-center">Layanan yang disediakan promosi produk UMKM desa sehingga mampu meningkatkan perekonomian masyarakat desa</p>
+        <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 gap-8">
+            <!-- Produk Card -->
+            <div class="bg-gray-50 rounded-2xl shadow-md overflow-hidden flex flex-col">
+                <img src="/gambar-icon/foto-produk.jpg" alt="" class="h-40 w-full object-cover">
+                <div class="p-4 flex-1 flex flex-col justify-between">
+                    <div>
+                        <h3 class="text-lg font-bold text-gray-800 mb-2">Nasi Bebek</h3>
+                        <div class="flex items-center mb-2">
+                            <span class="text-yellow-400">★★★★★</span>
+                        </div>
+                    </div>
+                    <div class="flex justify-between items-center mt-2">
+                        <span class="text-green-700 font-bold">Rp5.000</span>
+                    </div>
+                </div>
+            </div>
+            <div class="bg-gray-50 rounded-2xl shadow-md overflow-hidden flex flex-col">
+                <img src="/gambar-icon/foto-produk.jpg" alt="" class="h-40 w-full object-cover">
+                <div class="p-4 flex-1 flex flex-col justify-between">
+                    <div>
+                        <h3 class="text-lg font-bold text-gray-800 mb-2">Nasi Ayam</h3>
+                        <div class="flex items-center mb-2">
+                            <span class="text-yellow-400">★★★★★</span>
+                        </div>
+                    </div>
+                    <div class="flex justify-between items-center mt-2">
+                        <span class="text-green-700 font-bold">Rp15.000</span>
+                    </div>
+                </div>
+            </div>
+            <div class="bg-gray-50 rounded-2xl shadow-md overflow-hidden flex flex-col">
+                <img src="/gambar-icon/foto-produk.jpg" alt="" class="h-40 w-full object-cover">
+                <div class="p-4 flex-1 flex flex-col justify-between">
+                    <div>
+                        <h3 class="text-lg font-bold text-gray-800 mb-2">Nasi Goreng</h3>
+                        <div class="flex items-center mb-2">
+                            <span class="text-yellow-400">★★★★★</span>
+                        </div>
+                    </div>
+                    <div class="flex justify-between items-center mt-2">
+                        <span class="text-green-700 font-bold">Rp1.500</span>
+                    </div>
+                </div>
+            </div>
+            <div class="bg-gray-50 rounded-2xl shadow-md overflow-hidden flex flex-col">
+                <img src="/gambar-icon/foto-produk.jpg" alt="" class="h-40 w-full object-cover">
+                <div class="p-4 flex-1 flex flex-col justify-between">
+                    <div>
+                        <h3 class="text-lg font-bold text-gray-800 mb-2">Jagung</h3>
+                        <div class="flex items-center mb-2">
+                            <span class="text-yellow-400">★★★★★</span>
+                        </div>
+                    </div>
+                    <div class="flex justify-between items-center mt-2">
+                        <span class="text-green-700 font-bold">Rp5.000</span>
+                    </div>
+                </div>
+            </div>
+            <div class="bg-gray-50 rounded-2xl shadow-md overflow-hidden flex flex-col">
+                <img src="/gambar-icon/foto-produk.jpg" alt="" class="h-40 w-full object-cover">
+                <div class="p-4 flex-1 flex flex-col justify-between">
+                    <div>
+                        <h3 class="text-lg font-bold text-gray-800 mb-2">Sawi</h3>
+                        <div class="flex items-center mb-2">
+                            <span class="text-yellow-400">★★★★★</span>
+                        </div>
+                    </div>
+                    <div class="flex justify-between items-center mt-2">
+                        <span class="text-green-700 font-bold">Rp10.000</span>
+                    </div>
+                </div>
+            </div>
+            <div class="bg-gray-50 rounded-2xl shadow-md overflow-hidden flex flex-col">
+                <img src="/gambar-icon/foto-produk.jpg" alt="" class="h-40 w-full object-cover">
+                <div class="p-4 flex-1 flex flex-col justify-between">
+                    <div>
+                        <h3 class="text-lg font-bold text-gray-800 mb-2">Tomat
+                        </h3>
+                        <div class="flex items-center mb-2">
+                            <span class="text-yellow-400">★★★★★</span>
+                        </div>
+                    </div>
+                    <div class="flex justify-between items-center mt-2">
+                        <span class="text-green-700 font-bold">Rp10.000</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="flex justify-end items-center gap-2 mt-8">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-green-800" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <rect x="4" y="4" width="16" height="16" rx="2" fill="none" stroke="currentColor" stroke-width="2"/>
+                <line x1="8" y1="8" x2="16" y2="8" stroke="currentColor" stroke-width="2"/>
+                <line x1="8" y1="12" x2="16" y2="12" stroke="currentColor" stroke-width="2"/>
+                <line x1="8" y1="16" x2="12" y2="16" stroke="currentColor" stroke-width="2"/>
+            </svg>
+            <a href="#" class="font-bold text-lg text-green-800 hover:underline">LIHAT PRODUK LEBIH BANYAK</a>
+        </div>
+    </div>
+</section>
+
+
+
+<!-- Leaflet JS & CSS -->
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+<script>
+    document.addEventListener('DOMContentLoaded', function() {
+        var map = L.map('map').setView([-8.1753695, 114.2844501], 14); // Koordinat Desa Kampung Anyar
+        L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+            maxZoom: 19,
+            attribution: '© OpenStreetMap'
+        }).addTo(map);
+        L.marker([-8.1753695, 114.2844501]).addTo(map);
+    });
+</script>
 
 <!-- Section Galeri Desa -->
-{{-- ...copy section galeri kamu di sini... --}}
+
+<section class="max-w-screen-xl mx-auto py-16">
+    <div class="bg-green-700 rounded-3xl shadow-xl px-8 py-12">
+        <h2 class="text-5xl font-bold text-white mb-2 drop-shadow-lg text-left">GALERI DESA</h2>
+        <p class="text-xl text-white mb-8 text-left">Menampilkan kegiatan-kegiatan yang berlangsung di desa</p>
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8 mb-8 bg-white-700 ">
+            <div class="bg-white rounded-2xl shadow-lg w-full h-64 flex items-center justify-center overflow-hidden">
+                <img src="gambar-icon/foto-galeri1.jpg" alt="Kegiatan Desa 1" class="w-full h-full object-cover hover:scale-105 transition-transform duration-300">
+            </div>
+            <div class="bg-white rounded-2xl shadow-lg w-full h-64 flex items-center justify-center overflow-hidden">
+                <img src="gambar-icon/foto-galeri2.jpeg" alt="Kegiatan Desa 2" class="w-full h-full object-cover hover:scale-105 transition-transform duration-300">
+            </div>
+            <div class="bg-white rounded-2xl shadow-lg w-full h-64 flex items-center justify-center overflow-hidden">
+                <img src="gambar-icon/foto-galeri3.jpg" alt="Kegiatan Desa 3" class="w-full h-full object-cover hover:scale-105 transition-transform duration-300">
+            </div>
+            <div class="bg-white rounded-2xl shadow-lg w-full h-64 flex items-center justify-center overflow-hidden">
+                <img src="gambar-icon/foto-galeri4.jpg" alt="Kegiatan Desa 4" class="w-full h-full object-cover hover:scale-105 transition-transform duration-300">
+            </div>
+            <div class="bg-white rounded-2xl shadow-lg w-full h-64 flex items-center justify-center overflow-hidden">
+                <img src="gambar-icon/foto-galeri5.jpg" alt="Kegiatan Desa 5" class="w-full h-full object-cover hover:scale-105 transition-transform duration-300">
+            </div>
+            <div class="bg-white rounded-2xl shadow-lg w-full h-64 flex items-center justify-center overflow-hidden">
+                <img src="gambar-icon/foto-galeri6.jpg" alt="Kegiatan Desa 6" class="w-full h-full object-cover hover:scale-105 transition-transform duration-300">
+            </div>
+        </div>
+        <div class="flex justify-end items-center gap-2 mt-4">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <rect x="4" y="4" width="16" height="16" rx="2" fill="none" stroke="currentColor" stroke-width="2"/>
+                <line x1="8" y1="8" x2="16" y2="8" stroke="currentColor" stroke-width="2"/>
+                <line x1="8" y1="12" x2="16" y2="12" stroke="currentColor" stroke-width="2"/>
+                <line x1="8" y1="16" x2="12" y2="16" stroke="currentColor" stroke-width="2"/>
+            </svg>
+            <a href="#" class="font-bold text-lg text-white hover:underline">LIHAT GALERI FOTO LEBIH BANYAK</a>
+        </div>
+    </div>
+</section>
+
+<!-- Footer Baru -->
+<footer class="bg-green-900 text-white pt-12 pb-4 px-8 mt-24">
+    <div class="max-w-screen-xl mx-auto grid grid-cols-1 md:grid-cols-4 gap-8">
+        <!-- Logo dan Alamat -->
+        <div class="flex flex-col gap-4">
+            <img src="/gambar-icon/logo-desa.png" alt="Logo Desa" class="h-20 w-20 mb-2">
+            <div>
+                <h3 class="font-bold text-xl mb-2">Pemerintah Desa Kampung Anyar</h3>
+                <p class="text-base leading-relaxed">Jl. Kampung Anyar No. 1,<br>
+                Desa Kampunganyar,
+                Kecamatan Glagah,
+                Kabupaten Banyuwangi
+                Provinsi Jawa Timur, 68461</p>
+            </div>
+        </div>
+        <!-- Kontak -->
+        <div class="flex flex-col gap-4">
+            <h3 class="font-bold text-xl mb-2">Hubungi Kami</h3>
+            <div class="flex items-center gap-2"><span class="material-icons">call</span> 086526778233</div>
+            <div class="flex items-center gap-2"><span class="material-icons">email</span> admin@kampunganyar.com</div>
+            <div class="flex gap-4 mt-2">
+                <a href="#" class="text-white hover:text-green-300"><i class="fab fa-instagram text-2xl"></i></a>
+                <a href="#" class="text-white hover:text-green-300"><i class="fab fa-facebook text-2xl"></i></a>
+                <a href="#" class="text-white hover:text-green-300"><i class="fab fa-youtube text-2xl"></i></a>
+            </div>
+        </div>
+        <!-- Nomor Telepon Penting -->
+        <div class="flex flex-col gap-4">
+            <h3 class="font-bold text-xl mb-2">Nomor Telepon Penting</h3>
+            <a href="#" class="underline hover:text-green-300">Kepala Desa</a>
+            <a href="#" class="underline hover:text-green-300">Sekretaris Desa</a>
+        </div>
+        <!-- Jelajahi -->
+        <div class="flex flex-col gap-4">
+            <h3 class="font-bold text-xl mb-2">Jelajahi</h3>
+            <a href="#" class="underline hover:text-green-300">Website Kemendesa</a>
+            <a href="#" class="underline hover:text-green-300">Website Kemendagri</a>
+            <a href="#" class="underline hover:text-green-300">Cek DPT Online</a>
+        </div>
+    </div>
+    <!-- Copyright -->
+    <div class="w-full text-center text-white text-base mt-16">© 2025 Powered by PT Digital Desa Indonesia</div>
+</footer>
 
 @endsection

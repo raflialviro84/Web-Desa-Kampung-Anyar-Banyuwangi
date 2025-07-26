@@ -35,8 +35,8 @@
                     </svg>
                 </button>
                 <div class="absolute hidden group-hover:block bg-white text-green-900 mt-2 rounded shadow-lg min-w-[180px] z-50">
-                    <a href="#" class="block px-4 py-2 hover:bg-green-100">RT & RW</a>
-                    <a href="#" class="block px-4 py-2 hover:bg-green-100">PKK</a>
+                    <a href="{{ url('/pemerintahan-RT-RW') }}" class="block px-4 py-2 hover:bg-green-100">RT & RW</a>
+                    <a href="{{ url('/pemerintahan-PKK') }}" class="block px-4 py-2 hover:bg-green-100">PKK</a>
                     <a href="#" class="block px-4 py-2 hover:bg-green-100">Karang Taruna</a>
                     <a href="#" class="block px-4 py-2 hover:bg-green-100">BPD</a>
                 </div>
@@ -68,9 +68,15 @@
                     </svg>
                 </button>
                 <div class="absolute hidden group-hover:block bg-white text-green-900 mt-2 rounded shadow-lg min-w-[200px] z-50">
+<<<<<<< HEAD
                     <a href="{{ route('potensi-sda') }}" class="block px-4 py-2 hover:bg-green-100">Sumber Daya Alam</a>
                     <a href="{{ route('potensi-wisata') }}" class="block px-4 py-2 hover:bg-green-100">Wisata</a>
                     <a href="{{ route('potensi-umkm') }}" class="block px-4 py-2 hover:bg-green-100">Produk Hasil UMKM</a>
+=======
+                    <a href="potensi-sda.php" class="block px-4 py-2 hover:bg-green-100">Sumber Daya Alam</a>
+                    <a href="potensi-wisata-desa.php" class="block px-4 py-2 hover:bg-green-100">Wisata</a>
+                    <a href="potensi-produk-umkm.php" class="block px-4 py-2 hover:bg-green-100">Produk Hasil UMKM</a>
+>>>>>>> 16a60e0c66468d3183b4389badf7a6a858756313
                 </div>
             </div>
 
@@ -83,10 +89,10 @@
                     </svg>
                 </button>
                 <div class="absolute hidden group-hover:block bg-white text-green-900 mt-2 rounded shadow-lg min-w-[180px] z-50">
-                    <a href="#" class="block px-4 py-2 hover:bg-green-100">Artikel dan Berita</a>
-                    <a href="#" class="block px-4 py-2 hover:bg-green-100">Galeri</a>
+                    <a href="{{ url('/berita') }}" class="block px-4 py-2 hover:bg-green-100">Artikel dan Berita</a>
+                    <a href="{{ url('/galeri') }}" class="block px-4 py-2 hover:bg-green-100">Galeri</a>
                 </div>
-</div>
+            </div>
 
             <a href="{{ route('kontak') }}" class="nav-link {{ request()->is('kontak') ? 'active' : '' }}">Kontak</a>
         </nav>

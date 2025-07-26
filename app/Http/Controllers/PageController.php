@@ -50,4 +50,14 @@ class PageController extends Controller
     {
         return view('kontak');
     }
+
+    public function berita()
+    {
+        return view('berita');
+    }
+
+    public function galeri()
+    {
+        return view('galeri');
+    }
 }
